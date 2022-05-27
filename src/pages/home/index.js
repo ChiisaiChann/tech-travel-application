@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <Title>Home</Title>
-      <Subtitle>Hola Mundo</Subtitle>
+      <Subtitle>Hola Mundo! :D</Subtitle>
     </>
   );
 }
