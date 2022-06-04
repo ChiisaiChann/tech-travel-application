@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export default createGlobalStyle;
+export default createGlobalStyle`
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +14,19 @@ HTML, body, #root {
     height: 100%;
 }
 body {
-    background-color: purple;
+    background-color: black;
     -webkit-font-smoothing: antialiased;
 }
+body, input, button {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+`;
